@@ -1,52 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-          <title>Fundamentals of Data Visualization Final Project - Inflation Chart</title>
-        <meta charset="utf-8" />
-        <meta name="generator" content="Pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Fundamentals of Data Visualization Final Project">
+    <meta name="author" content="">
+
+        <title>Inflation Chart · Fundamentals of Data Visualization Final Project</title>
 
 
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 
 
-    <meta name="tags" content="pelican" />
-    <meta name="tags" content="publishing" />
+    <link rel="stylesheet" href="/theme/css/main.css">
+
+    <link rel="stylesheet" href="/theme/css/solarized-light.css">
+
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
 </head>
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="/">Fundamentals of Data Visualization Final Project</a></h1>
-        </header><!-- /#banner -->
-        <nav id="menu"><ul>
-            <li class="active"><a href="/category/python.html">Python</a></li>
-        </ul></nav><!-- /#menu -->
-<section id="content" class="body">
-  <header>
-    <h2 class="entry-title">
-      <a href="/chart.html" rel="bookmark"
-         title="Permalink to Inflation Chart">Inflation Chart</a></h2>
- 
-  </header>
-  <footer class="post-info">
-    <time class="published" datetime="2022-07-30T14:51:00-07:00">
-      Sat 30 July 2022
-    </time>
-    <time class="modified" datetime="2022-07-30T14:51:00-07:00">
-      Sat 30 July 2022
-    </time>
-    <address class="vcard author">
-      By           <a class="url fn" href="/author/lj-forrester.html">L.J. Forrester</a>
-    </address>
-    <div class="category">
-        Category: <a href="/category/python.html">Python</a>
+<body>
+  <div class="container" id="wrap">
+      <nav id="navbar" class="navbar navbar-default" role="navigation">
+    <div class="container">
+
+      <!--navbar-header-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="">Fundamentals of Data Visualization Final Project</a>
+      </div> <!--navbar-header-->
+
+      <!-- Search Box -->
+
+      <!--Menuitems, collapable-->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" id="menuitem-list">
+        </ul>
+      </div><!-- /.navbar-collapse -->
+
+    </div> <!--container-->
+  </nav>
+
+
+    <div class="container">
+      <div class="col-md-2">
+      </div>
+
+      <div class="col-md-8">
+        <div class="row">
+              <div class="page-header">
+        <h1><a href="/chart.html">Inflation Chart</a></h1>
     </div>
-    <div class="tags">
-        Tags:
-            <a href="/tag/pelican.html">pelican</a>
-            <a href="/tag/publishing.html">publishing</a>
-    </div>
-  </footer><!-- /.post-info -->
-  <div class="entry-content">
+
+        </div>
+
+        <div class="row">
+
+    <span id="article_info">
+    <a class="label label-primary" 
+      href="/category/Python.html">Python</a>
+      <b> · </b>
+        <a class="label label-primary" 
+          href="/tag/pelican.html">pelican</a>
+        <a class="label label-primary" 
+          href="/tag/publishing.html">publishing</a>
+    <!--<span class="glyphicon glyphicon-calendar"></span>-->
+      <b> · </b>
+      <a href="/archives.html#Year2022">2022</a>-<a href="/archives.html#Year2022Month07">07</a>-<a href="/archives.html#Year2022Month07">30</a>
+
+    <!--<span class="glyphicon glyphicon-user"></span>-->
+      <b> · </b>
+    <a href="/author/L.J. Forrester.html">L.J. Forrester</a>
+  </span>
+
+  <hr/>
+
+  <div id="article_content">
     <!---{% if 'vega' in article.include %}
 <style>
 .vega-actions a {
@@ -102,13 +144,56 @@ vegaEmbed("#vis", spec, embedOpt)
 </script>
 </body>
 <p></html></p>
-  </div><!-- /.entry-content -->
-</section>
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
-                which takes great advantage of <a href="https://www.python.org/">Python</a>.
-                </address><!-- /#about -->
-        </footer><!-- /#contentinfo -->
+  </div>
+
+  <hr/>
+
+      <ul class="pager">
+        <li class="previous disabled">
+          <a >
+          &laquo; Newer</a>
+        </li>
+        <li class="next disabled">
+          <a >
+          Older &raquo;</a>
+        </li>
+      </ul>
+
+
+        </div>
+
+        <div class="row">
+        </div>
+
+      </div>
+
+      <div class="col-md-2">
+      </div>
+    </div>
+
+
+  </div>
+
+    <nav id="footer" class="navbar navbar-default">
+    <div class="container">
+        <p id="footer-text" class="navbar-text text-center">
+          <span id="engine">
+            Compiled using
+            <a href="http://docs.getpelican.com">Pelican</a>
+          </span>
+          <span id="theme">
+            with theme
+            <a href="http://github.com/yuex/pelican-chameleon">Chameleon</a>
+          </span>
+          <span id="bootstrap">
+            on top of
+            <a href="http://getbootstrap.com/">Bootstrap</a>
+          </span>
+        </p>
+      </div>
+    </div>
+  </nav>
+
+
 </body>
 </html>
